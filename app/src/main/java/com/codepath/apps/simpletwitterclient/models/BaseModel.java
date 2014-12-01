@@ -3,11 +3,24 @@ package com.codepath.apps.simpletwitterclient.models;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+
+
 public class BaseModel {
     protected JSONObject jsonObject;
 
     public String getJSONString() {
         return jsonObject.toString();
+    }
+
+    public static long getTwitterDate(String date) throws ParseException {
+
+        final String TWITTER="EEE MMM dd HH:mm:ss ZZZZZ yyyy";
+        SimpleDateFormat sf = new SimpleDateFormat(TWITTER);
+        sf.setLenient(true);
+        return sf.parse(date).getTime();
     }
 
     protected String getString(String name) {

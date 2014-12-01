@@ -2,46 +2,46 @@
 <pre-dex-items>
 
     <item
-        dex="D:\Android\Assignment32\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.3-b3b6c25d5b3fadd71f7ba0afb995b8debbbd9838.jar"
-        jar="D:\Android\Assignment32\app\libs\android-async-http-1.4.3.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="f70e680861fdf9449819003e7799a4e9aca047f8"/>
-    <item
-        dex="D:\Android\Assignment32\app\build\intermediates\pre-dexed\debug\codepath-utils-c8df35a7761e5d4497a26c378b0ab10d5ad53860.jar"
-        jar="D:\Android\Assignment32\app\libs\codepath-utils.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="10901a5ef726eacf1b2443b7f38dc4cc9cd3f7d4"/>
-    <item
-        dex="D:\Android\Assignment32\app\build\intermediates\pre-dexed\debug\activeandroid-3.0-5f1521da1a5232b1bf786202fa4c49b8353243c4.jar"
-        jar="D:\Android\Assignment32\app\libs\activeandroid-3.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="8cdfaba830e02c56967e946078b60fc476432f36"/>
-    <item
-        dex="D:\Android\Assignment32\app\build\intermediates\pre-dexed\debug\scribe-c7b56392f03f8de8943646542c6fe48d3ad5c91a.jar"
-        jar="D:\Android\Assignment32\app\libs\scribe.jar"
+        dex="/Users/wyatth/androidWorkshop/TwitterClient/app/build/intermediates/pre-dexed/debug/scribe-374deab20c2659d3251d93f441cc964448f841f1.jar"
+        jar="/Users/wyatth/androidWorkshop/TwitterClient/app/libs/scribe.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="ea4909bb556de828493bb47ba878696c512b70e9"/>
     <item
-        dex="D:\Android\Assignment32\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-7fdc1a24fc5d39b763a49a332ffc221d4ee6606a.jar"
-        jar="D:\AndroidSDK\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        dex="/Users/wyatth/androidWorkshop/TwitterClient/app/build/intermediates/pre-dexed/debug/activeandroid-3.0-24b188015c90ede0cf37f31444846ce3f01129d7.jar"
+        jar="/Users/wyatth/androidWorkshop/TwitterClient/app/libs/activeandroid-3.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8cdfaba830e02c56967e946078b60fc476432f36"/>
+    <item
+        dex="/Users/wyatth/androidWorkshop/TwitterClient/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-579213ac5d3847653fa2963685361ffe7d30b163.jar"
+        jar="/Users/wyatth/androidsdk/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156"/>
     <item
-        dex="D:\Android\Assignment32\app\build\intermediates\pre-dexed\debug\codepath-oauth-0.3.0-afbb1080071dffa2c370b82627823dd40baf26ab.jar"
-        jar="D:\Android\Assignment32\app\libs\codepath-oauth-0.3.0.jar"
+        dex="/Users/wyatth/androidWorkshop/TwitterClient/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-16c8375f348ed431cd3a81087c290271843ef001.jar"
+        jar="/Users/wyatth/androidWorkshop/TwitterClient/app/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72"/>
+    <item
+        dex="/Users/wyatth/androidWorkshop/TwitterClient/app/build/intermediates/pre-dexed/debug/codepath-oauth-0.3.0-7260b7bc33fac1756b0e26d70e3d8d88139590a6.jar"
+        jar="/Users/wyatth/androidWorkshop/TwitterClient/app/libs/codepath-oauth-0.3.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="b90f1c3541987f690e2fb854775914cc23266250"/>
     <item
-        dex="D:\Android\Assignment32\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.4-1dccc54a9b0a7b9367a881637d0fe6e140482207.jar"
-        jar="D:\Android\Assignment32\app\libs\universal-image-loader-1.8.4.jar"
+        dex="/Users/wyatth/androidWorkshop/TwitterClient/app/build/intermediates/pre-dexed/debug/codepath-utils-f6c5b8d1d9ae2ec8b930f87f815e351845819c3a.jar"
+        jar="/Users/wyatth/androidWorkshop/TwitterClient/app/libs/codepath-utils.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="eee81e43531ce82db1781c5a8b27781ca384eede"/>
+        sha1="10901a5ef726eacf1b2443b7f38dc4cc9cd3f7d4"/>
+    <item
+        dex="/Users/wyatth/androidWorkshop/TwitterClient/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.3-eb24de41c373b6b61d70347373bd93635c114b88.jar"
+        jar="/Users/wyatth/androidWorkshop/TwitterClient/app/libs/android-async-http-1.4.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f70e680861fdf9449819003e7799a4e9aca047f8"/>
 
 </pre-dex-items>

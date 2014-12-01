@@ -1,10 +1,18 @@
 package com.codepath.apps.simpletwitterclient.models;
 
+import android.content.Context;
+import android.util.Log;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.ParseException;
 import java.util.ArrayList;
+
+import static android.text.format.DateUtils.HOUR_IN_MILLIS;
+import static android.text.format.DateUtils.WEEK_IN_MILLIS;
+import static android.text.format.DateUtils.getRelativeDateTimeString;
 
 public class Tweet extends BaseModel {
     private User user;
@@ -27,6 +35,16 @@ public class Tweet extends BaseModel {
 
     public boolean isRetweeted() {
         return getBoolean("retweeted");
+    }
+
+    public String getRealtiveTime(Context c)
+    {
+        try {
+            return String.valueOf(getRelativeDateTimeString(c, getTwitterDate(getString("created_at")), HOUR_IN_MILLIS, WEEK_IN_MILLIS, 0));
+        } catch (ParseException e) {
+            Log.d("debug", e.toString());
+            return "0";
+        }
     }
 
     public static Tweet fromJson(JSONObject jsonObject) {

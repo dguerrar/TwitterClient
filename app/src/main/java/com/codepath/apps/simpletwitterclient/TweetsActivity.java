@@ -38,6 +38,8 @@ public class TweetsActivity extends OAuthLoginActivity<TwitterClient> {
     		}
     	});
     }
+
+
     
     public void gotoCompose(View v) {
     	Intent i = new Intent(getApplicationContext(),

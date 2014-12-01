@@ -28,10 +28,11 @@ public class ComposeActivity extends OAuthLoginActivity<TwitterClient> {
 		
 		if(text.length() > 0) {
 			
-		//TwitterClient client = new TwitterClient(getApplicationContext());	
+		//TwitterClient client = new TwitterClient(getApplicationContext());
 		getClient().postTwitter(text, new AsyncHttpResponseHandler());
-		Intent i = new Intent(getApplicationContext(), TweetsActivity.class);
+		Intent i = new Intent(this, TweetsActivity.class);
 		startActivity(i);
+            //getApplicationContext()
 		
 		}
 		

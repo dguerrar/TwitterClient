@@ -33,4 +33,4 @@
         android:onClick="postTweeter"
         android:text="Post" />
 
-</RelativeLayout><!-- From: file:/D:/Android/Assignment32/app/src/main/res/layout/activity_compose.xml -->
+</RelativeLayout><!-- From: file:/Users/wyatth/androidWorkshop/TwitterClient/app/src/main/res/layout/activity_compose.xml -->

@@ -16,4 +16,4 @@
         android:onClick="loginToRest"
         android:text="@string/login_label" />
 
-</RelativeLayout><!-- From: file:/D:/Android/Assignment32/app/src/main/res/layout/activity_login.xml -->
+</RelativeLayout><!-- From: file:/Users/wyatth/androidWorkshop/TwitterClient/app/src/main/res/layout/activity_login.xml -->

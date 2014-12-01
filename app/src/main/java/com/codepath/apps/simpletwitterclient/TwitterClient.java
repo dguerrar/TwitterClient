@@ -41,14 +41,14 @@ public class TwitterClient extends OAuthBaseClient {
     public void getHomeTimeline(AsyncHttpResponseHandler handler) {
     	String url = getApiUrl(TIMELINE_STATUS);
     	RequestParams params = new RequestParams();
-		params.put("format", "json");
+		params.put("since_id", "1");
     	client.get(url, params, handler);
     }
     
     public void postTwitter(String message, AsyncHttpResponseHandler handler) {
     	RequestParams params = new RequestParams();
     	try {
-		   params.put("status", URLEncoder.encode(message,"UTF-8"));
+		   params.put("status", URLEncoder.encode(message,"UTF-8").replace("+", " "));
     	} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}

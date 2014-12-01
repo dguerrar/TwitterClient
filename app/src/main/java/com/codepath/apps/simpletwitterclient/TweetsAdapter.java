@@ -1,8 +1,5 @@
 package com.codepath.apps.simpletwitterclient;
 
-import java.util.List;
-
-
 import android.content.Context;
 import android.text.Html;
 import android.view.LayoutInflater;
@@ -14,6 +11,8 @@ import android.widget.TextView;
 
 import com.codepath.apps.simpletwitterclient.models.Tweet;
 import com.nostra13.universalimageloader.core.ImageLoader;
+
+import java.util.List;
 
 public class TweetsAdapter extends ArrayAdapter<Tweet> {
 
@@ -36,7 +35,7 @@ public class TweetsAdapter extends ArrayAdapter<Tweet> {
         
         TextView nameView = (TextView) view.findViewById(R.id.tvName);
         String formattedName = "<b>" + tweet.getUser().getName() + "</b>" + " <small><font color='#777777'>@" +
-                tweet.getUser().getScreenName() + "</font></small>";
+                tweet.getUser().getScreenName() + "</font></small>" + "<br><b>" +tweet.getRealtiveTime(getContext())+ "</b>";
         nameView.setText(Html.fromHtml(formattedName));
 
         TextView bodyView = (TextView) view.findViewById(R.id.tvBody);
